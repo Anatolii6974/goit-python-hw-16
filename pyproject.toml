@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "hw6db"
+version = "0.1.0"
+description = ""
+authors = ["Anatolii6974 <anatolii.perfilov@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+faker = "^19.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[virtualenvs] 
+in-project = true
